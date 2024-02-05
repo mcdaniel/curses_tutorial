@@ -8,6 +8,20 @@ Note that this tutorial covers almost everything you would ever want to know (or
 
 This tutorial was created from the library man pages, NCurses Programming HOWTO, and random sources on the Internet as well as personal experimentation and trial and error.  Thanks to the many folks who contributed to curses (the original library), ncurses and the numerous helpful documents, pages and posts.
 
+## Table of contents
+1. [Central concepts](#central-concepts-windows-and-coordinates)
+2. [Build options](#building-with-ncurses)
+3. [Environment life-cycle](#environment-life-cycle)
+4. [Flags/init state + related functions](#flagsinitialization-state-and-related-functions)
+5. [Windows + Cursor functions](#windows-and-cursor-functions)
+6. [Input functions](#input-functions)
+7. [Output functions](#output-functions)
+8. [Attributes](#attributes)
+9. [Colors](#colors)
+10. [Panels](#panels)
+11. [Menus](#menus)
+12. [Forms](#forms)
+
 **Patick McDaniel (mcdaniel@cs.wisc.edu), Jan 2024**
 
 ## Central concepts: windows and coordinates
