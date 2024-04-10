@@ -424,7 +424,6 @@ int form_basic( int do_window ) {
         switch (ch) {
             case KEY_DOWN:
                 mvprintw(9, 1, "You pressed the down arrow key");
-                form_driver(test_form, REQ_NEXT_FIELD);
                 break;
             case KEY_UP:
                 mvprintw(9, 1, "You pressed the up arrow key");

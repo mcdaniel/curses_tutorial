@@ -568,3 +568,10 @@ The forms library allows you to create interactive interfaces structured as fiel
     You can also just assign a specific field as having the focus using the set_current_field() function.
 
 5. **set_field_buffer()/set_field_status()/get_field_status()** - These functions allow you to set and retrieve the contents of a buffer and determine the edit status of a field.  Note that the forms library supports fields with multiple buffers, but I generally have not found a good use for them.
+
+6. **set_current_form()/current_field()/field_index()** - These functions set or get the focus of the field on the interface.  A return code of -1 (or NULL in the case of returned pointers) indicates an error.
+
+        FIELD *cur = current_field(form); // Get the current field and index
+        int fld = field_index(cur);
+        
+        set_current_field(form, field); // Set the current field
